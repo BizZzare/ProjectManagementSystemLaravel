@@ -1,0 +1,54 @@
+h2.fTitle
+{
+	color: #4080c3;
+	font-weight: bold;
+	font-size: 40px;
+	padding: 20px 0 15px 0;
+}
+div.fCard
+{
+	overflow: hidden;
+	margin: 10px;
+	transition: 0.4s;
+}
+div.fCard:nth-child(even) img
+{
+	height: 150px;
+	box-shadow: 0 5px 20px #aaa;
+	float: left;
+	margin-right: 10px;
+}
+div.fCard p
+{
+	text-align: justify;
+}
+div.fCard hr
+{
+	margin: 10px 0 10px 0;
+}
+div.fCard:nth-child(odd) img
+{
+	height: 150px;
+	box-shadow: 0 5px 20px #ddd;
+	float: right;
+	margin-left: 10px;
+}
+div.fCard:nth-child(odd)
+{
+	background: #343a40;
+	color: #fff;
+}
+div.fCard>div
+{
+	overflow: hidden;
+}
+div.fCard:hover
+{
+	background-color: skyblue;
+}
+div.fCard:last-child
+{
+	background: none;
+	height: 100px;
+	margin-bottom: 0;
+}

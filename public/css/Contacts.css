@@ -1,0 +1,13 @@
+div.col>p
+{
+	text-align: justify;
+}
+div.col
+{
+	padding: 20px;
+}
+div.col:last-child > p
+{
+	font-size: 20px;
+	text-align: left;
+}
